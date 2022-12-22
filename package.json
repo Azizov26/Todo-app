@@ -11,6 +11,12 @@
     "clean": "rd /s /q dist",
     "tscheck": "tsc"
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -31,12 +37,13 @@
     "css-loader": "^6.7.3",
     "eslint": "^8.30.0",
     "eslint-config-standard-with-typescript": "^24.0.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-n": "^15.6.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-perf": "^3.3.1",
-    "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-webpack-plugin": "^3.2.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
